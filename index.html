@@ -6,15 +6,16 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-    <header class="page-header">
-      <div class="logo_index"> <img src="images/header-logo.svg" alt="Логотип городка Седона на главной странице" width="139" height="70" > </div>
+    <header class="page-header main-header">
+
       <nav class="navigation">
-        <ul class="navigation_list">
+        <div class="logo_index"> <img src="images/header-logo.svg" alt="Логотип городка Седона на главной странице" width="139" height="70" > </div>
+        <ul class="navigation_list navigation_pages">
           <li class="navigation_item"> <a class="navigation_link" href="index.html"> Главная </a> </li>
           <li class="navigation_item"> <a class="navigation_link" href="#"> О Седоне </a> </li>
           <li class="navigation_item"> <a class="navigation_link" href="catalog.html"> Гостиницы </a> </li>
         </ul>
-        <ul class="navigation_list">
+        <ul class="navigation_list navigation_interfice">
           <li class="navigation_item"> <a class="navigation_link" href="#"> <span class="visually-hidden">Поиск</span>
             <img src="images/icons/search.svg" alt="Кнопка поиска" width="19" height="19"> </a> </li>
           <li class="navigation_item"> <a class="navigation_link" href="#"> <span class="visually-hidden">Избранное</span>
@@ -24,7 +25,8 @@
       </nav>
 
     </header>
-    <main class="main_index">
+    <main class="main_index main-container">
+      <div class="page-container">
       <h1 class="visually-hidden"> Welcome to Sedona </h1>
       <img src="images/Wellcome-photo.jpg" alt="Фон приветственной фотографии Седоны" class="welcome_photo" width="1200" height="517">
       <div class="advantages">
@@ -34,29 +36,29 @@
       </div>
       <section>
         <ul class="advantages_list">
-          <li class="advantages_item"><div class="advantages_block_1">
+          <li class="advantages_photoitem advantages-dark-blue"><div class="advantages_block">
             <h3 class="advantages_title">Настоящий <br> городок</h3>
             <p class="advantages_description advantages_description_white">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <img class="advantages_photo" src="images/advanteges/photo-1.jpg" width="800" height="384" alt="Фотография городка"></div>
 
-          <li class="advantages_item"><div class="advantages_block">
+          <li class="advantages_item advantages-soft-blue-tansporent"><div class="advantages_block">
             <h3 class="advantages_title">Небольшая <br> площадь</h3>
             <p class="advantages_description">Все достопримечательности находятся очень близко</p></div></li>
 
-          <li class="advantages_item"><div class="advantages_block">
+          <li class="advantages_item advantages-soft-blue"><div class="advantages_block">
             <h3 class="advantages_title">Красивая <br> дорога</h3>
             <p class="advantages_description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p></div></li>
 
-          <li class="advantages_item"><div class="advantages_block">
+          <li class="advantages_item advantages-soft-blue-tansporent"><div class="advantages_block">
             <h3 class="advantages_title">Мало <br> туристов</h3>
             <p class="advantages_description">Большинство едет в Гранд Каньон и толпится там</p></div></li>
 
-          <li class="advantages_item"><div class="advantages_block">
+          <li class="advantages_photoitem advantages-dark-blue"><div class="advantages_block">
             <h3 class="advantages_title">Там есть <br> мост дьявола</h3>
             <p class="advantages_description advantages_description_white">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
             <img class="advantages_photo" src="images/advanteges/photo-2.jpg" width="800" height="384" alt="Фотография моста дьявола"></div></li>
 
-          <li class="advantages_item"> <div class="advantages_element_home"> <img class="advantages_icon" src="images/icons/home-icon.svg" alt="иконка жилья" width="76" height="72">
+          <li class="advantages_item advantages-soft-blue-tansporent"> <div class="advantages_element_home"> <img class="advantages_icon" src="images/icons/home-icon.svg" alt="иконка жилья" width="76" height="72">
             <h3 class="advantages_title">Жильё</h3>
             <p class="advantages_description"> Рекомендуем пожить в настоящем мотеле, всё как в кино!</p></div></li>
 
@@ -64,7 +66,7 @@
             <h3 class="advantages_title">Еда</h3>
             <p class="advantages_description"> Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p></div></li>
 
-          <li class="advantages_item"> <div class="advantages_element_souvenir"> <img class="advantages_icon" src="images/icons/souvenirs-icon.svg" alt="иконка сувениров" width="65" height="76">
+          <li class="advantages_item advantages-soft-blue-tansporent"> <div class="advantages_element_souvenir"> <img class="advantages_icon" src="images/icons/souvenirs-icon.svg" alt="иконка сувениров" width="65" height="76">
             <h3 class="aadvantages_title">Сувениры</h3>
             <p class="advantages_description"> Не только китайского, но и настоящего местного производства!</p></div></li>
 
@@ -76,8 +78,10 @@
         <p class="Search_hotel_text">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a href="catalog.html" class="Search_hotel_button">Поиск гостиницы в Седоне</a>
       </section>
+      </div>
     </main>
     <footer>
+      <div class="page-footer-container">
       <section class="newsletter">
         <h2 class="newsletter_title">Подпишитесь на рассылку</h2>
         <p class="newsletter_description">Только полезная информация и никакого спама, честное бойскаутское!</p>
@@ -86,6 +90,7 @@
           <button type="submit" class="subscribe_button">Подписаться</button>
         </form>
       </section>
+      <div class="contact_us">
       <section class="social">
         <h3 class="visually-hidden">Контакты</h3>
         <ul class="social_list">
@@ -100,6 +105,8 @@
       <address class="phonenumber"><a href="tel:+78128121212"> +7 (812) 812-12-12 </a> </address>
       <p class="about-text"><a class="htmlacademy-link" href="https://htmlacademy.ru/"> <img src="images/icons/html-logo.svg"
         alt="Логотип правообладателя - HTML Академии" width="115" height="33"> </a> </p>
+      </div>
+    </div>
     </footer>
 
 
