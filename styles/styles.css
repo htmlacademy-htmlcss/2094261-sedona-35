@@ -40,6 +40,14 @@
     margin: 0 auto;
   }
 
+  .navigation_pages {
+    width: 339px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
   .navigation_list {
     margin: 0;
     padding: 0;
@@ -75,9 +83,12 @@
   .advantages_list {
     display: flex;
     flex-wrap: wrap;
+    width: 1200px;
+    padding: 0px;
   }
 
-  .advantages_item {
+
+  .advantages_block {
     width: 400px;
   }
 
@@ -200,7 +211,7 @@
   }
 
   .phonenumber {
-    max-width: 320px;
+    max-width: 340px;
   }
 
   .about-text {
