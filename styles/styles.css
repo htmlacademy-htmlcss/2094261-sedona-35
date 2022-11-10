@@ -41,12 +41,23 @@
   }
 
   .navigation_pages {
-    width: 339px;
-    height: 64px;
+    width: 600px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
   }
+
+  .nav-main {
+    margin-left: 16px;
+  }
+
+  .nav-about {
+    margin-left: 16px;
+  }
+
+  .nav-hotels {
+    margin-left: 16px;
+  }
+
 
   .navigation_list {
     margin: 0;
@@ -56,15 +67,22 @@
   .logo_index {
     width: 140px;
     margin-right: 28px;
-  }
-
-  .navigation_pages {
-    max-width: 350px;
+    margin-left: 70px;
   }
 
   .navigation_interfice{
-    max-width: 300px;
-    margin-left: auto
+    margin-left: auto;
+    width: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .interfice-search {
+    margin-right: 25px;
+  }
+
+  .interfice-favorites {
+    margin-right: 33px;
   }
 
   .visually-hidden {
@@ -126,6 +144,8 @@
     text-decoration: none;
     color: #FFFFFF;
     background-color: #756157;
+    padding: 8px 34px;
+    border-radius: 4px;
   }
 
   .sedona_short_description{
