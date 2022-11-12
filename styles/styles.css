@@ -89,6 +89,8 @@ body {
   display: none;
 }
 
+
+
 li {
 list-style-type: none;
 }
@@ -132,6 +134,16 @@ list-style-type: none;
   justify-content: space-between;
 }
 
+.advantages-description-wrapper-80 {
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto 81px auto;
+  width: 230px;
+  min-height: 223px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .advantages_description {
   margin: 0;
 }
@@ -143,6 +155,10 @@ list-style-type: none;
 .advantages_photoitem {
   width: 1200px;
   padding: 0;
+}
+
+.advantages_photo {
+  display: block;
 }
 
 .Search_hotel {
@@ -302,6 +318,15 @@ margin: 0px;
   max-width: 120px;
 }
 
+.search_hotel-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin: 96px auto;
+  width: 592px;
+  min-height: 108px;
+  justify-content: space-between;
+}
+
 .Search_hotel_title {
 font-family: 'PT Sans', sans-serif;
 font-style: normal;
@@ -310,6 +335,7 @@ font-size: 30px;
 line-height: 36px;
 text-align: center;
 text-transform: uppercase;
+margin: 0 0 20 0;
 }
 
 .Search_hotel_text{
@@ -320,21 +346,26 @@ font-size: 22px;
 line-height: 26px;
 text-align: center;
 color: #333333;
+margin: 0;
 }
 
 .Search_hotel_button{
+  width: 376px;
   display: block;
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
-  align-items: center;
   font-size: 20px;
   line-height: 36px;
   text-align: center;
+  align-items: center;
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #756157;
   text-decoration: none;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 54px;
 }
 
 .newsletter {
