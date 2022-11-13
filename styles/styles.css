@@ -423,6 +423,13 @@ margin: 0;
   display: flex;
 }
 
+.newsletter-catalog {
+  width: 1200px;
+  height: 411px;
+  display: flex;
+  background-color: #FFFFFF;
+}
+
 .newsletter_title{
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
