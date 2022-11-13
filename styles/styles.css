@@ -505,6 +505,7 @@ margin: 0;
   background-image: url("../images/filter_back.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-color: #82B3D3;
   width: 1200px;
   height: 403px;
 }
@@ -525,7 +526,13 @@ margin: 0;
   height: 16px;
   background-size: 50% auto;
   background-repeat: no-repeat;
-  background-color: #82B3D3
+}
+
+.inner_header_title {
+  margin-left: 70px;
+  margin-bottom: 8px;
+  margin-top: 35px;
+  margin-right: auto;
 }
 
 .breadcrumbs_item a{
@@ -536,7 +543,22 @@ margin: 0;
   line-height: 21px;
   color: #FFFFFF;
   text-decoration: none;
-  background-color: #82B3D3
+}
+
+.breadcrumbs {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.breadcrumbs_item-home {
+  margin-right: 11.3px;
+}
+
+.breadcrumbs_item-curen {
+  margin-left: 10.8px;
 }
 
 .catalog_filter_title {
