@@ -308,16 +308,30 @@ footer {
   display: flex;
   width: 1200px;
   margin: 0 auto;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .social_list {
   display: flex;
   max-width: 170px;
+  margin-top: 45px;
+  margin-left: 70px;
+  margin-bottom: 35px;
+  margin-right: 236.5px;
+  padding: 13px 12px 13px 12px;
+}
+
+.vk {
+  margin-right: 26px;
+}
+
+.tg{
+  margin-right: 27px;
 }
 
 .phonenumber {
   max-width: 340px;
+  margin-right: 235.5px;
 }
 
 .about-text {
