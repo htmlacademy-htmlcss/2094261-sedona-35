@@ -26,6 +26,7 @@
 
     </header>
     <main class="main_inner">
+      <div class="page-container">
       <div class="catalog_filter">
         <div class="breadcrumbs-wrapper">
 
@@ -39,29 +40,38 @@
             <section class="catalog_hotels">
                 <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
                 <form class="catalog_buttons" action="https://echo.htmlacademy.ru/" method="get">
-                    <button class="button accept_button" type="submit">Применить</button>
-                    <button class="button reset_button" type="reset">Сбросить</button>
-                    <fieldset class="catalog_filter_group">
-                        <legend class="catalog_filter_title">Инфраструктура:</legend>
-                        <label class="control">
-                            <input class="control_input" type="checkbox" name="swimmingpool" >Бассейн</label>
-                        <label class="control">
-                            <input class="control_input" type="checkbox" name="parking" >Парковка</label>
-                        <label class="control">
-                            <input class="control_input" type="checkbox" name="Wi-Fi">Wi-Fi</label>
+
+                    <fieldset class="catalog_filter_group infrastructure">
+                        <legend class="catalog_filter_title infrastructure-title">Инфраструктура:</legend>
+                        <label class="control control-swimmingpool">
+                            <input class="control_input control_input-swimmingpool" type="checkbox" name="swimmingpool" >Бассейн</label>
+                        <label class="control control-parking">
+                            <input class="control_input control_input-parking" type="checkbox" name="parking" >Парковка</label>
+                        <label class="control control-Wi-Fi">
+                            <input class="control_input control_input-Wi-Fi" type="checkbox" name="Wi-Fi">Wi-Fi</label>
                       </fieldset>
 
-                      <fieldset class="catalog_filter_group">
-                      <legend class="catalog_filter_title">Тип жилья:</legend>
+                      <fieldset class="catalog_filter_group accommodation_type">
+                      <legend class="catalog_filter_title accommodation_type-title">Тип жилья:</legend>
                         <ul class="accommodation_type_list">
-                          <li class="accommodation_type_list_item"><label class="checkbox"><input class="control-input" type="radio" name="accommodation"
+                          <li class="accommodation_type_list_item"><label class="checkbox"><input class="control-input-ac" type="radio" name="accommodation"
                              value="hotel">Гостиница </label></li>
-                          <li class="accommodation_type_list_item"><label class="checkbox"><input class="control-input" type="radio" name="accommodation"
+                          <li class="accommodation_type_list_item"><label class="checkbox"><input class="control-input-ac" type="radio" name="accommodation"
                             value="Motel">Мотель </label></li>
-                          <li class="accommodation_type_list_item"><label class="checkbox"><input class="control-input" type="radio" name="accommodation"
+                          <li class="accommodation_type_list_item"><label class="checkbox"><input class="control-input-ac" type="radio" name="accommodation"
                             value="Apartments">Апартаменты </label></li>
                         </ul>
                     </fieldset>
+
+                    <div class="ruller">
+                      Стоимость Р
+                    </div>
+
+                    <DIV class="buttons-wrapper">
+                      <button class="button accept_button" type="submit">Применить</button>
+                      <button class="button reset_button" type="reset">Сбросить</button>
+                      </DIV>
+
                 </form>
             </section>
       </div>
@@ -138,7 +148,7 @@
                 </ul>
 
                 </section>
-
+            </DIV>
 
 
     </main>
