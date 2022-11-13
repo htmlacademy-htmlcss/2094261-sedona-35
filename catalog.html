@@ -6,22 +6,24 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-    <header>
-      <div class="logo_index"> <a href="../index.html"><img src="images/header-logo.svg" alt="Логотип Седоны на главной странице"> </a></div>
+    <header class="page-header main-header">
+
       <nav class="navigation">
-        <ul class="navigation_list">
-          <li class="navigation_item"> <a class="navigation_link" href="index.html"> Главная </a> </li>
-          <li class="navigation_item"> <a class="navigation_link" href="#"> О Седоне </a> </li>
-          <li class="navigation_item navigation_item_current"> <a class="navigation_link navigation_link_current" href="catalog.html"> Гостиницы </a> </li>
+        <div class="logo_index"> <img src="images/header-logo.svg" alt="Логотип городка Седона на главной странице" width="139" height="70" > </div>
+        <ul class="navigation_list navigation_pages">
+          <li class="navigation_item nav-main"> <a class="navigation_link" href="index.html"> Главная </a> </li>
+          <li class="navigation_item nav-about"> <a class="navigation_link" href="#"> О Седоне </a> </li>
+          <li class="navigation_item nav-hotels curent-page"> <a class="navigation_link" href="catalog.html"> Гостиницы </a> </li>
+        </ul>
+        <ul class="navigation_list navigation_interfice">
+          <li class="navigation_item interfice-search"> <a class="navigation_link" href="#"> <span class="visually-hidden">Поиск</span>
+            <img src="images/icons/search.svg" alt="Кнопка поиска" width="19" height="19"> </a> </li>
+          <li class="navigation_item interfice-favorites"> <a class="navigation_link" href="#"> <span class="visually-hidden">Избранное</span>
+            <img src="images/icons/favorite.svg" alt="Кнопка избранного" width="19" height="17"> </a> </li>
+          <li class="navigation_item interfice-go"> <a class="lets_go_button" href="#"> Хочу сюда! </a> </li>
         </ul>
       </nav>
-      <nav class="navigation navigation_user">
-        <ul class="navigation_list">
-          <li class="navigation_item"> <a class="navigation_link" href="#"> <span class="visually-hidden">Поиск</span> </a> </li>
-          <li class="navigation_item"> <a class="navigation_link" href="#"> <span class="visually-hidden">Избранное</span> </a> </li>
-          <li class="navigation_item"> <a class="lets_go_button button" href="#"> Хочу сюда! </a> </li>
-        </ul>
-      </nav>
+
     </header>
     <main class="main_inner">
       <div class="catalog_filter">
