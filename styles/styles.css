@@ -549,6 +549,16 @@ margin: 0;
   color: #FFFFFF;
 }
 
+.catalog_buttons {
+  display: flex;
+
+}
+
+.catalog_filter {
+  display: flex;
+  flex-direction: column;
+}
+
 .accommodation_type_list_item,
 .control{
   font-family: 'PT Sans', sans-serif;
