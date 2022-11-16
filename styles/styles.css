@@ -313,7 +313,8 @@ footer {
 
 .social_list {
   display: flex;
-  max-width: 170px;
+  max-width: 190px;
+  max-height: 40px;
   margin-top: 45px;
   margin-left: 70px;
   margin-bottom: 35px;
@@ -328,6 +329,8 @@ footer {
 .tg{
   margin-right: 27px;
 }
+
+
 
 .phonenumber {
   max-width: 340px;
@@ -355,7 +358,7 @@ font-size: 30px;
 line-height: 36px;
 text-align: center;
 text-transform: uppercase;
-margin: 0 0 20 0;
+margin: 0 0 20px 0;
 }
 
 .hotel_title {
@@ -860,7 +863,7 @@ margin: 0;
   flex-wrap: wrap;
   width: 300px;
   box-sizing: content-box;
-  margin-top: 0 auto;
+  margin-top: auto ;
 }
 
 .card-content-wrapper :nth-child(1) {
@@ -978,7 +981,7 @@ margin: 0;
 }
 
 .underliner {
-  width: 1060;
+  width: 1060px;
   height: 1px;
   background-color: #E6E6E6;
   margin: 0 70px 40px 70px;
