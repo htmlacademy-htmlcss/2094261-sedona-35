@@ -717,15 +717,36 @@ margin: 0;
   text-decoration: none;
 }
 
-.hotel_type,
-.hotel_price{
-  font-family: 'PT Sans', sans-serif;
+
+.hotel_card {
+  display: flex;
+  flex-direction: column;
+}
+
+.hotel_type {
+  width: 140px;
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: #333333;
-  background-color: #FFFFFF;
+}
+
+.hotel_price {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  width: 140px;
+  text-align: right;
+}
+
+
+.card-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px 20px 30px 16px;
 }
 
 .hotel_card_button-more{
@@ -740,6 +761,9 @@ margin: 0;
   color: #FFFFFF;
   background-color: #756157;
   text-decoration: none;
+  padding: 8px 26px;
+  background: #756157;
+  border-radius: 4px;
 }
 
 .hotel_card_button-favorite{
@@ -754,6 +778,9 @@ margin: 0;
   color: #FFFFFF;
   background-color: #82B3D3;
   text-decoration: none;
+  background: #82B3D3;
+  border-radius: 4px;
+  padding: 8px 20px;
 }
 
 .hotel_card_button-favorite-chosed{
@@ -780,6 +807,10 @@ margin: 0;
   text-transform: uppercase;
   color: #333333;
   background-color: #F2F2F2;
+}
+
+.stars {
+  width: 140px;
 }
 
 .four-stars{
