@@ -698,6 +698,14 @@ margin: 0;
   color: #000000;
 }
 
+.hotels-list {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 20px;
+  margin-right: 70px;
+  margin-left: 70px;
+  }
+
 .hotel_card_link{
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
