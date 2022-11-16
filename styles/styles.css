@@ -721,6 +721,7 @@ margin: 0;
 .hotel_card {
   display: flex;
   flex-direction: column;
+  margin: 16px 20px 30px 16px;
 }
 
 .hotel_type {
@@ -747,10 +748,17 @@ margin: 0;
   display: flex;
   flex-wrap: wrap;
   width: 300px;
-  margin: 16px 20px 30px 16px;
+  box-sizing: content-box;
 }
 
+.card-content-wrapper :nth-child(1) {
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
 
+.card-content-wrapper :nth-child(2) {
+  margin-bottom: 16px;
+}
 
 .hotel_card_button-more{
   font-family: 'PT Sans';
@@ -798,6 +806,9 @@ margin: 0;
   color: #FFFFFF;
   background-color: #7DB54F;
   text-decoration: none;
+  padding: 8px 18px;
+  background: #7DB54F;
+  border-radius: 4px;
 }
 
 .rating {
