@@ -615,6 +615,7 @@ margin: 0;
   width: 288px;
   height: 160px;
   border: 2px solid white;
+  margin-right: 70px;
 
 }
 
@@ -622,6 +623,9 @@ margin: 0;
   display: flex;
   flex-direction: column;
 }
+
+.catalog_filter_group {}
+
 
 .accommodation_type_list_item,
 .control{
@@ -676,9 +680,19 @@ margin: 0;
   padding: 0;
 }
 
-.control-Wi-Fi {
-
+.accommodation_type_list_item {
+  margin-bottom: 16px;
 }
+
+.accommodation_type_list {
+  padding: 0;
+  margin-right: 140px;
+}
+
+.control-input-ac {
+  margin-right: 16px;
+}
+
 
 .accept_button {
   font-family: 'PT Sans';
@@ -711,6 +725,10 @@ margin: 0;
   background-color: transparent;
   text-transform: uppercase;
   padding: 8px 57.5px;
+}
+
+.catalog_filter_group {
+  border: none;
 }
 
 .button_bold{
