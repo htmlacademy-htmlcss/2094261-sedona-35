@@ -358,6 +358,11 @@ text-transform: uppercase;
 margin: 0 0 20 0;
 }
 
+.hotel_title {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
 .Search_hotel_text{
 font-family: 'PT Sans', sans-serif;
 font-style: normal;
@@ -700,10 +705,11 @@ margin: 0;
 
 .hotels-list {
   display: grid;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: 340px 340px 340px;
   gap: 20px;
   margin-right: 70px;
   margin-left: 70px;
+  padding: 0;
   }
 
 .hotel_card_link{
@@ -715,13 +721,24 @@ margin: 0;
   color: #000000;
   background-color: #FFFFFF;
   text-decoration: none;
+  width: 300px;
 }
-
 
 .hotel_card {
   display: flex;
   flex-direction: column;
-  margin: 16px 20px 30px 16px;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  width: 300px;
+  padding: 20px;
+
+}
+
+.hotel_card img {
+  display: block;
+  width: 300px;
+  margin: 0;
+
 }
 
 .hotel_type {
@@ -749,6 +766,7 @@ margin: 0;
   flex-wrap: wrap;
   width: 300px;
   box-sizing: content-box;
+  margin-top: 0 auto;
 }
 
 .card-content-wrapper :nth-child(1) {
@@ -757,6 +775,10 @@ margin: 0;
 }
 
 .card-content-wrapper :nth-child(2) {
+  margin-bottom: 16px;
+}
+
+.card-content-wrapper :nth-child(3) {
   margin-bottom: 16px;
 }
 
