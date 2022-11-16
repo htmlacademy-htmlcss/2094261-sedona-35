@@ -447,6 +447,19 @@ margin: 0;
   margin: 0 auto 20px auto ;
 }
 
+.newsletter_title-black{
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color:#000000;
+  margin: 0 auto 20px auto ;
+}
+
+
 .newsletter_description{
   font-family: 'PT Sans', sans-serif;
   font-style: normal;
@@ -455,6 +468,17 @@ margin: 0;
   line-height: 26px;
   text-align: center;
   color: #FFFFFF;
+  margin: 0 auto ;
+}
+
+.newsletter_description-black{
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color:#000000;
   margin: 0 auto ;
 }
 
@@ -932,6 +956,10 @@ margin: 0;
   background-color: #FFFFFF;
   width: 44px;
   height: 20px;
+}
+
+.pagination {
+  display: flex;
 }
 
 .pagination_link{
