@@ -746,8 +746,11 @@ margin: 0;
 .card-content-wrapper {
   display: flex;
   flex-wrap: wrap;
-  padding: 16px 20px 30px 16px;
+  width: 300px;
+  margin: 16px 20px 30px 16px;
 }
+
+
 
 .hotel_card_button-more{
   font-family: 'PT Sans';
@@ -807,6 +810,7 @@ margin: 0;
   text-transform: uppercase;
   color: #333333;
   background-color: #F2F2F2;
+  width: 140px;
 }
 
 .stars {
